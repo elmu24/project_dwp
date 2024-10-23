@@ -1,5 +1,5 @@
 import React from 'react';
-import ComponentUI from './ComponentExercise/ComponentUI/ComponentUI';  // Importiert die Haupt-UI-Komponente
+import ComponentUI from './ComponentExercise/ComponentUI';  
 import './ComponentExercise/style.css';
 
 function App() {
