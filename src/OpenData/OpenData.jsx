@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import './OpenData.css';
 
 function App() {
   const [category, setCategory] = useState(''); 

@@ -1,13 +1,14 @@
 import React from 'react';
-import ComponentUI from './ComponentExercise/ComponentUI';  
-import './ComponentExercise/style.css';
+import OpenData from './OpenData/OpenData';  
+import './OpenData/OpenData.css';
 
 function App() {
   return (
     <div className="App">
-      <ComponentUI />
+      <OpenData />
     </div>
   );
 }
+
 
 export default App;
