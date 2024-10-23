@@ -1,14 +1,15 @@
-// src/App.jsx
+
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ComponentUI from './ComponentExercise/ComponentUI'; // Importiere die Hauptkomponente von ComponentExercise
-import OpenData from './OpenData/OpenData'; // Importiere OpenData-Komponente
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'; /*necessary import after installing routing*/
+import ComponentUI from './ComponentExercise/ComponentUI'; 
+import OpenData from './OpenData/OpenData'; 
+/* Importing the components of the other exercises*/
 
 function App() {
   return (
     <Router>
       <div>
-        {/* Navigation Links */}
+        {/* Navigation and the Linking */}
         <nav>
           <ul>
             <li><Link to="/component-exercise">Component Exercise</Link></li>
@@ -16,11 +17,12 @@ function App() {
           </ul>
         </nav>
 
-        {/* Routing-Definitionen */}
+        {/* Routing-Definition */}
         <Routes>
           <Route path="/component-exercise" element={<ComponentUI />} />
           <Route path="/open-data" element={<OpenData />} />
         </Routes>
+
       </div>
     </Router>
   );
