@@ -25,7 +25,20 @@ function ComponentUI() {
   return (
     <div className="content">
       <Header title="WELCOME PRODUCT PAGE!" image="https://picsum.photos/100" altText="some random picture" />
-      
+      <OrderForm 
+        productName={productName}
+        productPrice={productPrice}
+        selectedIndex={selectedIndex}
+        onProductChange={handleProductChange}
+        quantity={quantity}
+        onQuantityChange={handleQuantityChange}
+      />
+      <OrderInfo 
+        productName={productName}
+        productPrice={productPrice}
+        selectedIndex={selectedIndex}
+        quantity={quantity}
+      />
     </div>
   );
 }
