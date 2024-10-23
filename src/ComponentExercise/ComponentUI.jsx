@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import OrderForm from './OrderForm';
 import OrderInfo from './OrderInfo';
+import './style.css'
 
 
 // Arrays for product names and prices
